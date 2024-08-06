@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/038/987/289/small/ai-generated-majestic-mountain-peak-reflects-tranquil-sunset-over-water-generated-by-ai-photo.jpg);
+    background-size:cover;
+}
+fieldset{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+h1{
+    margin-top: 40px;
+    color: aqua;
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-left: 5px;
+}
+button{
+    height: 40px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(0, 174, 255);
+}
+h4{
+    margin-top: 20px;
+}
+.si{
+  margin-top: 50px;
+}
+.sa{
+margin-bottom: 0px;
+}
