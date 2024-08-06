@@ -29,7 +29,9 @@ footer{
     background-color: aquamarine; 
 }
 .link{
-    padding-left:50px ;
+    margin-left: 250px;
+    color: rgb(27, 239, 27);
+    text-decoration: none;
 }
 h1{
     color:aqua;
