@@ -8,7 +8,7 @@ body,html{
     width: 100%;
 }
 body{
-    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/038/987/289/small/ai-generated-majestic-mountain-peak-reflects-tranquil-sunset-over-water-generated-by-ai-photo.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/mountain-lake-background_670382-273488.jpg);
     background-size:cover;
 }
 fieldset{
@@ -20,6 +20,7 @@ fieldset{
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 20px;
+    background-color: rgba(46, 186, 222, 0.384);
 }
 img{
     height: 100px;
@@ -28,7 +29,7 @@ img{
 }
 h1{
     margin-top: 40px;
-    color: aqua;
+    color: rgb(21, 248, 248);
 }
 input{
     height: 40px;
