@@ -10,12 +10,13 @@ html,body{
 body{
     height:"100%" ;
     width:"100%" ;
+    background-image: url(https://cosmosmagazine.com/wp-content/uploads/2020/02/180606-agriculture-full.jpg);
+    background-size: cover;
+    
 }
 header{
     height: 100px;
-    width:100%;
-    border:1px solid black;  
-    background-color: black;   
+    width:100%;  
     position: fixed;    
 }
 main{
@@ -28,21 +29,29 @@ footer{
     display:block; 
     background-color: aquamarine; 
 }
-.link{
-    margin-left: 250px;
+.link1{
+    margin-left: 800px;
     color: rgb(27, 239, 27);
-    text-decoration: none;
+    text-decoration: none;  
+    padding-right: 20px;
 }
+.link2{
+    color: rgb(27, 239, 27);
+    text-decoration: none;  
+    padding-right: 20px;
+}
+
 h1{
     color:aqua;
-    text-align: center;
+    margin-left: 10px;
     margin-top: 5px;
 }
 button{
-    margin-left: ;
+    margin-right: 0px;
+    
 }
 input{
-    margin-left: 90px;
+    padding-left: 20px;
 }
 .box{
     height: 300px;
