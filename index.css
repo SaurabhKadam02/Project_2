@@ -1,35 +1,88 @@
-*{
-margin:0;
-padding:0;
-box-sizing:box-boxing;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box-boxing;
 }
-html,body{
-    height:100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
-body{
-    height:"100%" ;
-    width:"100%" ;
-    background-image: url(https://cosmosmagazine.com/wp-content/uploads/2020/02/180606-agriculture-full.jpg);
-    background-size: cover;
-    
+body {
+  height: 100%;
+  width: 100%;
+  /* background-image: url(https://cosmosmagazine.com/wp-content/uploads/2020/02/180606-agriculture-full.jpg);
+  background-size: cover; */
+}
+container{
+    width: 90vh;
+    margin: 0 auto;
 }
 header{
-    height: 100px;
-    width:100%;  
-    position: fixed;    
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+header .container {
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+  font-size: 1rem; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input{
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+button{
+    border-radius: 20px;
+    padding: 6px 12px;
+    margin-right: 1px;
+}
+nav{
+    font-size: 2rem;
+    text-align: center;
 }
 main{
-    padding-top: 120px;
+    display: ;
 }
-footer{
+main .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  /* display: inline-block;
+  margin-top: 10px;
+  margin-left: 38px;
+  margin-bottom: 10px; */
+}
+.sub_box {
+  height: 80%;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: 1px solid black;
+}
+
+
+/* footer{
     height: 200px;
     width: 100%;
     border:1px solid black;
     display:block; 
     background-color: aquamarine; 
-}
-.link1{
+} */
+/* .link1{
     margin-left: 800px;
     color: rgb(27, 239, 27);
     text-decoration: none;  
@@ -52,20 +105,4 @@ button{
 }
 input{
     padding-left: 20px;
-}
-.box{
-    height: 300px;
-    width: 250px;
-    border: 1px solid black;
-    display:inline-block;
-    margin-top:10px;
-    margin-left: 38px;
-    margin-bottom: 10px;   
-}
-.sub_box{
-    height: 80%;
-    width: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-    border: 1px solid black;
-}
+} */
