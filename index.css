@@ -73,7 +73,8 @@ footer .container{
     border-top: 1px solid black;
    display: flex;
    justify-content: center;
-   gap: 20px;
+   gap: 30px;
    font-size: 1.5rem;
    margin-top: 20px;
+   padding: 10px;
 }
