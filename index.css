@@ -11,6 +11,10 @@ body {
 body {
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   /* background-image: url(https://cosmosmagazine.com/wp-content/uploads/2020/02/180606-agriculture-full.jpg);
   background-size: cover; */
 }
@@ -52,7 +56,10 @@ nav {
 main {
   display: ;
 }
-main .container .row1, .row2, .row3, .row4 {
+main .container .row1,
+.row2,
+.row3,
+.row4 {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
@@ -69,12 +76,18 @@ main .container .row1, .row2, .row3, .row4 {
   margin-left: 10%;
   border: 1px solid black;
 }
-footer .container{
-    border-top: 1px solid black;
-   display: flex;
-   justify-content: center;
-   gap: 30px;
-   font-size: 1.5rem;
-   margin-top: 20px;
-   padding: 10px;
+footer .container {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
