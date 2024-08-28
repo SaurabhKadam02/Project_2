@@ -89,7 +89,8 @@ footer .container {
   body {
     height: 100vh;
     width: 100vh;
-    display: fixed;
+    display: flex;
+    justify-content: center;
     position: absolute;
     top: 50%;
     left: 50%;
